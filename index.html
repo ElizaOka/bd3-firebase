@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BD3 - Firebase</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+</body>
+<!-- SDK do firebase -->
+
+    <script src="https://www.gstatic.com/firebasejs/5.0.3/firebase-app.js"></script> 
+
+
+<!-- sdk do firestore -->
+
+    <script src="https://www.gstatic.com/firebasejs/5.0.3/firebase-firestore.js"></script> 
+
+<!--  conexão com o firebase -->
+<script>
+    /* os dados de conexão com o firebase*/
+    const firebaseConfig = {
+        apiKey: "AIzaSyAHGWfAOuyefvMp8nJlC0IETLhA2xsf8EA",
+        authDomain: "bd3-app-libri-eliza.firebaseapp.com",
+        projectId: "bd3-app-libri-eliza",
+        storageBucket: "bd3-app-libri-eliza.appspot.com",
+        messagingSenderId: "905933214106",
+        appId: "1:905933214106:web:29cb90f58d7e35728dea23",
+        measurementId: "G-JEK122WXR1"
+      };
+
+      /*inicializa o Firebase*/
+      firebase.initializeApp(firebaseConfig);
+
+      /*inicializa o firestore*/
+      const db = firebase.firestore();
+      console.log(db);
+
+
+      
+</script>
+<script src="app.js'>
+    
+</script>
+</html>
